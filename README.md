@@ -1,22 +1,30 @@
 # IT Home Lab
 ## Overview
-Brief description of the project — what you built and why.
+In the creation of this home lab, I was able to familizarize myself with IT infrastructure concerning a Windows Server, Active Directory and cloud administration on Azure
 ## Project 1: Windows Server & Active Directory
 
-Environment: Windows Server 2025 on Azure
-Domain: mike.local
-What you configured: OUs, user accounts, GPOs, shared folders, security groups
+### Environment
+- Platform: Microsoft Azure
+- OS: Windows Server 2025 Datacenter
+- Domain: mike.local
 
-## Active Directory Structure
-Document your OUs (Engineering, HR, Finance) and the users you created in each.
-## Group Policy Objects
-Document your Security Policy GPO — password complexity settings, screen lock at 600 seconds.
-## IT Tasks Simulated
+### What I Configured
+- Promoted server to Domain Controller
+- Created Organizational Units: Engineering, HR, Finance
+- Created user accounts across each department
+- Configured Group Policy Object (Security Policy) enforcing:
+  - Minimum password length: 10 characters
+  - Password complexity: Enabled
+  - Maximum password age: 90 days
+  - Screen lock after 600 seconds (10 minutes)
+- Set up shared folder (Engineering-Share) with permission-based access
+- Created security group (Engineering-Team) and managed membership
 
-Disabled/re-enabled user accounts
-Password resets with forced change at next logon
-Security group membership management
-Shared folder with permission-based access
+### IT Tasks Simulated
+- Disabled and re-enabled user accounts (employee termination/reinstatement)
+- Reset user passwords with forced change at next logon
+- Managed security group membership
+- Configured shared folder access control by department
 
 ## Network Diagram
 For now just note that you'll add a diagram here — we'll create one using draw.io after.
