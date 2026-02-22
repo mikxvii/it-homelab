@@ -27,4 +27,3 @@ In the creation of this home lab, I was able to familizarize myself with IT infr
 - Configured shared folder access control by department
 
 ## Network Diagram
-For now just note that you'll add a diagram here — we'll create one using draw.io after.
