@@ -26,4 +26,5 @@ In the creation of this home lab, I was able to familizarize myself with IT infr
 - Managed security group membership
 - Configured shared folder access control by department
 
-## Network Diagram
+### Network Diagram
+![Network Diagram](Diagram for Windows Server _ Active Directory.drawio.png)
