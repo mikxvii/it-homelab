@@ -80,3 +80,7 @@ Home lab built to develop hands-on IT infrastructure experience in preparation f
 - Service installation, management, and troubleshooting
 - Automated backup with retention policy
 - Security auditing through log analysis
+
+### Scripts
+- [create_users.sh](scripts/create_users.sh) — Automated employee onboarding
+- [backup.sh](scripts/backup.sh) — Automated backup with retention policy
